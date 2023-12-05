@@ -1,0 +1,4 @@
+vao.o: sources/vao.cpp sources/vao.h
+rules.o: sources/rules.cpp sources/rules.h
+game.o: sources/game.cpp sources/game.h sources/vao.h sources/rules.h
+main.o: sources/main.cpp sources/game.h sources/vao.h sources/rules.h
